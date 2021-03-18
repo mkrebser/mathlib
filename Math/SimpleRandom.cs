@@ -55,23 +55,7 @@ public struct SimpleRandom
 	/// <returns></returns>
 	public int Next()
 	{
-		unchecked
-		{
-			x = (a * x + b) % m;
-			var result = (int)x;
-
-			if (result < 0) // to avoid even odd even odd pattern.. randomly perform again 1 or 2 times
-			{
-				x = (a * x + b) % m;
-				return System.Math.Abs((int)x);
-			}
-			else
-			{
-				x = (a * x + b) % m;
-				x = (a * x + b) % m;
-				return System.Math.Abs((int)x);
-			}
-		}
+		 return System.Math.Abs(NextN());
 	}
 
 	/// <summary>
