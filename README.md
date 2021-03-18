@@ -19,6 +19,6 @@ SimpleRandom: Linear congruential generator
 HashGraph: A graph implementation that uses unique vertices/ (Each vertex can be hashed & have constant lookup time)  
   - Implements A star search & connected component  
 
-Note* Some segments of the code are just copy/paste from other repos. Sources are directly in the code. (eg some of the quaternion and matrix manipulation code). Feel free to use my code however you want. Creative commons license https://creativecommons.org/publicdomain/zero/1.0/ for the other 99% of this repo that I have personally written.
+Note* Some segments of the code are just copy/paste from other repos. Sources are directly in the code. (eg some of the quaternion and matrix manipulation code). Feel free to use my code however you want. 
 
 
